@@ -1,0 +1,26 @@
+{
+  "name": "web_scraper_1.0",
+  "version": "1.0.0",
+  "description": "A simple webscraper website for quick data extraction.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ether186/web_scraper_1.0.git"
+  },
+  "author": "Evan Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ether186/web_scraper_1.0/issues"
+  },
+  "homepage": "https://github.com/Ether186/web_scraper_1.0#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.8",
+    "express": "^4.18.1",
+    "isomorphic-fetch": "^3.0.0",
+    "mongoose": "^6.5.0",
+    "react": "^18.2.0"
+  }
+}

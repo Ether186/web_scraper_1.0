@@ -1,0 +1,10 @@
+Title: Razor
+
+Introductory Text: Your reliable and free webscraper.
+
+
+Input Placeholder: examplewebsite.com/path
+
+
+
+Data Display Placeholder: fetched data
