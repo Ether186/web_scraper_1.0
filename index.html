@@ -4,16 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
     <link rel="stylesheet" href="/styles/style.css"></link>
+<script  defer src="index.js"></script>
     
     <title>Web Scraper 1.0</title>
 </head>
 <body>
-    <div class="navbar">
-    <h1> <img
-        class="icon"
-        src="content/icons/icon3.png"
-      /></h1>
+    <header class="navbar">
+       
+      <h1 class="header-left-title">Razor</h1> <p class="header-left-title-sm">A fast and easy webscraper</p>
+    </header>
+
+
+   <form class="input-section">
+     <div class="description">
+     <h3 class="description-title">How it works</h3>
+     <p>Enter in the name of the website page (and it's full path) you want to webscrape.</p>
+     <!-- <p>Either leave it empty to webscrape the entire page, type in the keywords (and the numbers of characters you want scraped before/after the keyword entered)</p>
+     <p>You can also use the section options that webscrape a page starting at a certain keyword and ending at another keyword</p> -->
     </div>
+    <div class="input-container">
+    <label class="input-label" for="website-option">Website Path</label>
+     <input class="input-text" id="website-option" type="text" placeholder="https://examplewebsite.com/subdirectory">
+    </div>
+ 
+    <!-- <div class="input-container">
+     <label class="input-label" for="keyword-option">Keywords</label>
+     <input class="input-text" id="keyword-option" type="text" >
+    </div>
+    <div class="input-container">
+     <label class="input-label" for="section-option">Sections</label>
+     <input class="input-text " id="section-option" type="text" >
+    </div> -->
+     <button class="input-button" type="submit">Submit</button>
+     <!-- <button class="accordion">Section 1</button>
+     <div class="panel">
+       <p>Lorem ipsum...</p>
+     </div> -->
+     <div class="remaining-space"></div>
+     
+   </form>
+
+
+ 
+
+
+ 
+   <footer>
+    <p>Copyright 2022, Ether</p>
+  </footer>
+
+   
 </body>
 </html>
