@@ -278,6 +278,8 @@ footer {
   background-color: #189ab4;
   height: 10rem;
   display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
   justify-content: center;
   align-items: center;
   font-size: 1.33333rem;

@@ -5,19 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <link rel="stylesheet" href="/styles/style.css"></link>
+    <link rel="stylesheet" type="text/css" href="/styles/style.css"></link>
 <script  defer src="index.js"></script>
+
     
     <title>Web Scraper 1.0</title>
 </head>
 <body>
     <header class="navbar">
        
-      <h1 class="header-left-title">Razor</h1> <p class="header-left-title-sm">A fast and easy webscraper</p>
+      <h1 class="header-left-title">Razor</h1> 
+      <p class="header-left-title-sm">A fast and easy webscraper</p>
     </header>
 
 
-   <form class="input-section">
+   <form action="/" method="post" class="input-section"> <!-- Refer to Responding to requests with HTML files-->
      <div class="description">
      <h3 class="description-title">How it works</h3>
      <p>Enter in the name of the website page (and it's full path) you want to webscrape.</p>
@@ -26,7 +28,7 @@
     </div>
     <div class="input-container">
     <label class="input-label" for="website-option">Website Path</label>
-     <input class="input-text" id="website-option" type="text" placeholder="https://examplewebsite.com/subdirectory">
+     <input class="input-text" id="website-option" type="text" name="websiteOption" placeholder="https://examplewebsite.com/subdirectory or examplewebsite.com/subdirectory">
     </div>
  
     <!-- <div class="input-container">
@@ -52,7 +54,8 @@
 
  
    <footer>
-    <p>Copyright 2022, Ether</p>
+    <p>Copyright 2022</p>
+    <p>Ether</p>
   </footer>
 
    
